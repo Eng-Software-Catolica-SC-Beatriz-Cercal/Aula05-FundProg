@@ -12,9 +12,9 @@ int main(void){
     //Processamento e saída de dados:
     numero = (int)inteiro;
 
-    if (inteiro == numero){
+    if (inteiro == numero){ //Condicional IF
         printf("O numero e inteiro");
-    }else{
+    }else{ //If/Else
         printf("O numero e quebrado");
     }
     return 0;
