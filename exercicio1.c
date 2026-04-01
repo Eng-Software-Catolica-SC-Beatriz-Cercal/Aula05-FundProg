@@ -9,6 +9,6 @@ int main(void){
     scanf("%d", &numero);
     fflush(stdin);
     //Processamento e saída de dados:
-
+    
     return 0;
 }
