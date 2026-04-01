@@ -1,1 +1,1 @@
-# Aula05-FundProg
+Este repositória armazena os dois exercícios solicitados pelo professor orientador, no que diz respeito ao uso de condicionais (if/else);
