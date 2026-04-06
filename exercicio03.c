@@ -9,7 +9,7 @@ int main(void){
     scanf("%i", &numero);
     fflush(stdin);
     //Processamento e saída de dados:
-    if (numero/2 == 0){ //Condicional IF
+    if (numero%2 == 0){ //Condicional IF
         printf("O numero e par");
     }else{ //If/Else
         printf("O numero e impar");
