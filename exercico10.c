@@ -6,13 +6,14 @@ int main(void){
     int operacao;
     //Quais são as entradas de dados?
     printf("Escolha uma opcao:");
-    printf("1- Soma;");
-    printf("2- Subtracao;");
-    printf("3- Multiplicacao;");
-    printf("4- Divisao;");
+    printf("1- Soma;\n");
+    printf("2- Subtracao;\n");
+    printf("3- Multiplicacao;\n");
+    printf("4- Divisao;\n");
     scanf("%d", &operacao);
     fflush(stdin);
     //Processamento e saída de dados:
+        system("cls"); //Limpeza de tela
     	switch(operacao){
 		case 1:
 			printf("Soma: Adicao entre dois valores.\n");
