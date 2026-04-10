@@ -28,7 +28,7 @@ int main(void){
 			printf("Divisao: Reparticao entre dois valores.\n");
 			break;
 		default:
-			printf("Valor invalido\n");
+			printf("Opcao invalida\n");
 	}
 	
 	return 0;
