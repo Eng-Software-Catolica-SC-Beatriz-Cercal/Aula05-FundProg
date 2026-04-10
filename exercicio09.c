@@ -38,24 +38,15 @@ int main(void){
 			printf("Resultado da Subtracao:", &sub);
 			break;
         case 3:
-            soma = numero1+numero2;
-			printf("Resultado da Soma:", &soma);
+            mult = numero1*numero2;
+			printf("Resultado da Multiplicacao:", &mult);
 			break;
         case 4:
-			printf("Quarta-Feira\n");
-			break;
-        case 5:
-			printf("Quinta-Feira\n");
-			break;
-        case 6:
-			printf("Sexta-Feira\n");
-			break;
-        case 7:
-			printf("Sabado\n");
+			printf("Resultado da Divisao:", &div);
 			break;
 		
 		default:
-			printf("Valor invalido\n");
+			printf("Opcao invalida\n");
 	}
 	
 	return 0;
